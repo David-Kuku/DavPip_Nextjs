@@ -1,4 +1,5 @@
 {
+  "homepage": "http://David-Kuku.github.io/DavPip_Nextjs",
   "name": "davpip_next",
   "version": "1.0.0",
   "description": "",
@@ -6,11 +7,14 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build"
   },
   "author": "David",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "moment": "^2.27.0",
     "next": "^9.5.1",
     "next-images": "^1.4.1",
