@@ -12,8 +12,8 @@ const SideDrawer =({ show }) =>{
     return(
         <div className={drawerclasses} style={{textAlign:"center"}}>
             <hr className='mt2 ml2 mr2'/>
-            <div><button className='cen1 btn btn-primary mt2 '><Link href="/"><a className="white">Home</a></Link></button></div>
-            <div><button className='cen1 btn-black white mt2'><Link href="/archives"><a className="white">Archive</a></Link></button></div>
+            <div><button className='cen1 btn btn-primary mt2 '><Link href="/"><a style={{color:"white"}}>Home</a></Link></button></div>
+            <div><button className='cen1 btn-black white mt2' style={{marginTop:"10px"}}><Link href="/archives"><a style={{color:"white"}}>Archive</a></Link></button></div>
 
             <style jsx>{`
             .sidedrawer{
